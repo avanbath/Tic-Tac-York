@@ -37,5 +37,21 @@ Users can interact with a “play” button to initiate a game of tic-tac-toe
 
 Users can interact with a “tips and tricks” button to get helpful hints and tips to improve their strategy 
 
-
 Users can view their local weather forecast and current weather
+
+Users can select from a short list of icons to use as their symbol for the game
+
+
+Users will either go first or second based on random decision from the computer (to ensure fairness)
+
+
+In the game the user will take turns with the computer-controlled opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces 
+
+
+Users can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
+
+
+Users can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
+
+
+Users can tie the game (cat’s game) if neither them or the opponent is able to satisfy the win condition before all the spaces in the 3x3 grid are filled
