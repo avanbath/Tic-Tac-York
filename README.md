@@ -33,16 +33,16 @@ Following SDLC principles, we will be creating a customized version of a Tic-Tac
 
 Users can play a game of tic-tac-toe versus a computer-controlled opponent in HTML format
 
-Users can interact with a “play” button to initiate a game of tic-tac-toe
+Users can interact with a “Play” button to initiate a game of tic-tac-toe
 
-Users can interact with a “tips and tricks” button to get helpful hints and tips to improve their strategy 
+Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy 
 
-Users can view their local weather forecast and current weather
+Users can view their local weather forecast and current weather on the bottom of the screen
 
-Users can select from a short list of icons to use as their symbol for the game
+Users can select from a short list of icons to use as their symbol for the game by pressing the "Customize" button
 
 
-Users will either go first or second based on random decision from the computer (to ensure fairness)
+Users will either go first or second based on random decision from the computer (to ensure fairness) and then the user will be told the decision
 
 
 In the game the user will take turns with the computer-controlled opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces 
