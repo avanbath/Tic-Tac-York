@@ -19,4 +19,4 @@ Requirements:
 - In the game the user will take turns with the computer-controlled opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces 
 - Users can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
 - Users can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
-- Users can tie the game (cat’s game) if neither them or the opponent is able to satisfy the win condition before all the spaces in the 3x3 grid are filled
+- Users can tie the game (cat’s game) if neither them nor the opponent is able to satisfy the win condition before all the spaces in the 3x3 grid are filled
