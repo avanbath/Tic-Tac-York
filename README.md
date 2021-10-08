@@ -9,7 +9,7 @@ Project Title: Tic-Tac-York
 
 Description: Following SDLC principles, we will be creating a customized version of a tic-tac-toe web application, which is based on one of the suggested projects provided. The web app will consist of a dynamic user interface with a game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. The user may choose their preferred mark from a list beforehand. Local weather information will also be displayed as a side feature.
 
-Requirements:
+Functional Requirements:
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent with a visual board display
 - Users can interact with a “Play” button to initiate a game of tic-tac-toe
 - Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy 
