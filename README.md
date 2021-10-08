@@ -1,5 +1,5 @@
 # tic-tac-york1012
-	Repository for the Tic-Tac-York web application. This repository is based on the Tic-Tac-Toe game idea from EECS1012 at York University.
+	Repository for the Tic-Tac-York web application. This repository is based on the tic-tac-toe game idea from EECS1012 at York University.
 
 Team Name: Code Stars
 
@@ -7,7 +7,7 @@ Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | Samant
 
 Project Title: Tic-Tac-York
 
-Description: Following SDLC principles, we will be creating a customized version of a tic-tac-toe web application, which is based on one of the suggested projects provided. The web app will consist of a dynamic user interface with a game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional Tic-Tac-Toe rules, in which two players (user and computer opponent) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. The user may choose their preferred mark from a list beforehand. Local weather information will also be displayed as a side feature.
+Description: Following SDLC principles, we will be creating a customized version of a tic-tac-toe web application, which is based on one of the suggested projects provided. The web app will consist of a dynamic user interface with a game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. The user may choose their preferred mark from a list beforehand. Local weather information will also be displayed as a side feature.
 
 Requirements:
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent in HTML format
