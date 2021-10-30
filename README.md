@@ -27,5 +27,5 @@ Following principles of the software development life cycle, we will be creating
 
 ## Basic Wireframes for the Application
 Intro Screen: [WireFrame1.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445738/WireFrame1.pdf)
----
+
 Tips Screen: [WireFrame2.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445739/WireFrame2.pdf)
