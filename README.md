@@ -23,5 +23,8 @@ Description: Following principles of the software development life cycle, we wil
 - A user can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
 - In a game versus a computer, a user can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
 - Users can tie the game if neither them nor the opponent is able to satisfy the win condition before all the spaces in the grid are filled
-[WireFrame1.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445738/WireFrame1.pdf)
-[WireFrame2.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445739/WireFrame2.pdf)
+
+Basic Wireframes for the Application:
+Intro Screen: [WireFrame1.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445738/WireFrame1.pdf)
+
+Tips Screen: [WireFrame2.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445739/WireFrame2.pdf)
