@@ -28,7 +28,7 @@ Following principles of the software development life cycle, we will be creating
 ## Basic Wireframes for the Application
 Intro Screen: [Wireframe 1](https://github.com/avanbath/tic-tac-york1012/blob/ae6ddb49b0f59737f0aa70c560b7bc611c8ebca9/Wireframe1.pdf)
 
-Tips Screen: [Wireframe 2](https://github.com/avanbath/tic-tac-york1012/files/7445739/Wireframe2.pdf)
+Tips Screen: [Wireframe 2](https://github.com/avanbath/tic-tac-york1012/blob/22734ae520866967d255aae4ac996866acf454b8/Wireframe2.pdf)
 
 Game Screen:[Wireframe 3](https://github.com/avanbath/tic-tac-york1012/files/7445740/Wireframe3.pdf)
 
