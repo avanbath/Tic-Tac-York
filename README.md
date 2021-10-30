@@ -11,13 +11,15 @@ Description: Following principles of the software development life cycle, we wil
 
 ## Functional Requirements:
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent or another local user with a visual board display
+- Users will be shown a welcome screen giving a brief overview of the game
 - Users can interact with a “Play” button in a multi-optional prompt menu to initiate a game of tic-tac-toe
-- Users can instead choose to initiate a tutorial session with a computer-controlled opponent to understand how the game works via the prompt menu
+- Users can choose to initiate a tutorial session with a computer-controlled opponent instead of a real game to understand how the game works via the prompt menu
 - Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy
 - Users can view their local weather forecast and current weather on the bottom of the screen, shown as widget that can be hidden
 - Users can select from a short list of icons to use as their symbol for the game by pressing the "Customize Mark" button in the prompt menu
 - In a game versus a computer, users will either go first or second based on random decision from the computer (to ensure fairness) and then the user will be told the decision
-- In the game, users can take turns with the opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces with a mouseclick
-- A player can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
+- Users can take turns with the opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces with a mouseclick
+- If the user makes an illegal move (for example, if the space clicked on is already filled), then they will be prompted to choose an open space on the grid
+- A user can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
 - In a game versus a computer, a user can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
-- Users can tie the game (cat’s game) if neither them nor the opponent is able to satisfy the win condition before all the spaces in the 3x3 grid are filled
+- Users can tie the game if neither them nor the opponent is able to satisfy the win condition before all the spaces in the grid are filled
