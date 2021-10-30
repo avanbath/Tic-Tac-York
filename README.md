@@ -7,10 +7,10 @@ Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | Samant
 
 Project Title: Tic-Tac-York
 
-## Description:
+## Description
 Following principles of the software development life cycle, we will be creating a customized and unique version of tic-tac-toe in the form of a web application, which is based on one of the suggested EECS1012 projects provided. The web app will consist of a dynamic, minimalistic user interface with a primary game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent, or user versus user) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. Users will have the option to choose their preferred mark before starting the game. Other useful features, such as local weather information based on the location of the player, will also be part of this web application for the player's convenience, and to fulfill the purpose of our project being truly one-of-a-kind.
 
-## Functional Requirements:
+## Functional Requirements
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent or another local user with a visual board display
 - Users will be shown a welcome screen giving a brief overview of the game
 - Users can interact with a “Play” button in a multi-optional prompt menu to initiate a game of tic-tac-toe
@@ -25,8 +25,6 @@ Following principles of the software development life cycle, we will be creating
 - In a game versus a computer, a user can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
 - Users can tie the game if neither them nor the opponent is able to satisfy the win condition before all the spaces in the grid are filled
 
-Basic Wireframes for the Application:
-
+## Basic Wireframes for the Application
 Intro Screen: [WireFrame1.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445738/WireFrame1.pdf)
-
 Tips Screen: [WireFrame2.pdf](https://github.com/avanbath/tic-tac-york1012/files/7445739/WireFrame2.pdf)
