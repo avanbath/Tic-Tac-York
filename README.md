@@ -30,6 +30,6 @@ Intro Screen: [Wireframe 1](https://github.com/avanbath/tic-tac-york1012/blob/ae
 
 Tips Screen: [Wireframe 2](https://github.com/avanbath/tic-tac-york1012/blob/22734ae520866967d255aae4ac996866acf454b8/Wireframe2.pdf)
 
-Game Screen:[Wireframe 3](https://github.com/avanbath/tic-tac-york1012/files/7445740/Wireframe3.pdf)
+Game Screen: [Wireframe 3](https://github.com/avanbath/tic-tac-york1012/blob/e3106cc42946f69f53d32a1ac380b6b5b41fb960/Wireframe3.pdf)
 
-Game End Screen:
+Game End Screen: [Wireframe 4]()
