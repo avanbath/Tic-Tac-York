@@ -26,7 +26,7 @@ Following principles of the software development life cycle, we will be creating
 - Users can tie the game if neither them nor the opponent is able to satisfy the win condition before all the spaces in the grid are filled
 
 ## Basic Wireframes for the Application
-Intro Screen: [Wireframe 1](https://github.com/avanbath/tic-tac-york1012/files/7445738/Wireframe1.pdf)
+Intro Screen: [Wireframe 1](https://github.com/avanbath/tic-tac-york1012/blob/ae6ddb49b0f59737f0aa70c560b7bc611c8ebca9/Wireframe1.pdf)
 
 Tips Screen: [Wireframe 2](https://github.com/avanbath/tic-tac-york1012/files/7445739/Wireframe2.pdf)
 
