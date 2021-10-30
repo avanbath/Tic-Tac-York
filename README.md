@@ -7,16 +7,17 @@ Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | Samant
 
 Project Title: Tic-Tac-York
 
-Description *(TO BE UPDATED)*: Following SDLC principles, we will be creating a customized version of a tic-tac-toe web application, which is based on one of the suggested projects provided. The web app will consist of a dynamic user interface with a game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. The user may choose their preferred mark from a list beforehand. Local weather information will also be displayed as a side feature.
+Description: Following principles of the software development life cycle, we will be creating a customized and unique version of tic-tac-toe in the form of a web application, which is based on one of the suggested EECS1012 projects provided. The web app will consist of a dynamic, minimalistic user interface with a primary game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent, or user versus user) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. Users will have the option to choose their preferred mark before starting the game. Other useful features, such as local weather information based on the location of the player, will also be part of this web application for the player's convenience, and to fulfill the purpose of our project being truly one-of-a-kind.
 
 ## Functional Requirements:
-- Users can play a game of tic-tac-toe versus a computer-controlled opponent with a visual board display
-- Users can interact with a “Play” button to initiate a game of tic-tac-toe
-- Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy 
-- Users can view their local weather forecast and current weather on the bottom of the screen
-- Users can select from a short list of icons to use as their symbol for the game by pressing the "Customize" button
-- Users will either go first or second based on random decision from the computer (to ensure fairness) and then the user will be told the decision
-- In the game the user will take turns with the computer-controlled opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces 
-- Users can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
-- Users can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
+- Users can play a game of tic-tac-toe versus a computer-controlled opponent or another local user with a visual board display
+- Users can interact with a “Play” button in a multi-optional prompt menu to initiate a game of tic-tac-toe
+- Users can instead choose to initiate a tutorial session with a computer-controlled opponent to understand how the game works via the prompt menu
+- Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy
+- Users can view their local weather forecast and current weather on the bottom of the screen, shown as widget that can be hidden
+- Users can select from a short list of icons to use as their symbol for the game by pressing the "Customize Mark" button in the prompt menu
+- In a game versus a computer, users will either go first or second based on random decision from the computer (to ensure fairness) and then the user will be told the decision
+- In the game, users can take turns with the opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces with a mouseclick
+- A player can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
+- In a game versus a computer, a user can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
 - Users can tie the game (cat’s game) if neither them nor the opponent is able to satisfy the win condition before all the spaces in the 3x3 grid are filled
