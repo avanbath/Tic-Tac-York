@@ -26,4 +26,4 @@ Following principles of the software development life cycle, we will be creating
 - Users can tie the game if neither them nor the opponent is able to satisfy the win condition before all the spaces in the grid are filled
 
 ## Project Interface Design (Wireframes)
-Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york1012/blob/ae6ddb49b0f59737f0aa70c560b7bc611c8ebca9/Wireframe1.pdf)
+Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york1012/blob/caf0fb30bea8bcaa62adb228dd945f69c2985c15/Wireframes.pdf)
