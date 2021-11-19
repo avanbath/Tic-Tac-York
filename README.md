@@ -12,14 +12,13 @@ Following principles of the software development life cycle, we will be creating
 
 ## Functional Requirements
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent or another local user with a visual board display
-- Users will be shown a welcome screen giving a brief overview of the game
-- Users can interact with a “Play” button in a multi-optional prompt menu to initiate a game of tic-tac-toe
-- Users can choose to initiate a tutorial session with a computer-controlled opponent instead of a real game to understand how the game works via the prompt menu
-- Users can interact with a “Tips and Tricks” button to get helpful hints and tips to improve their strategy
-- Users can view their local weather forecast and current weather on the bottom of the screen, shown as widget that can be hidden
-- Users can select from a short list of icons to use as their symbol for the game by pressing the "Customize Mark" button in the prompt menu
-- In a game versus a computer, users will either go first or second based on random decision from the computer (to ensure fairness) and then the user will be told the decision
-- Users can take turns with the opponent interacting with the 3x3 grid, placing their symbol in any of the available spaces with a mouseclick
+- Users will be shown a welcome screen with the options to play, customize their mark, or learn how to play the game
+- Users can interact with a “Play” button that will allow them to select the game mode of their liking
+- Users can interact with a “Tips and Tricks” button during the game to get helpful hints and tips to improve their strategy
+- Users can view their local weather forecast on the bottom-right of the screen, shown as widget that can be hidden/minimized for convenience
+- Users can select from a short list of icons (referred to as "marks") to use as their symbol for the game by pressing the "Customize Mark" button in the main menu
+- In a game versus a computer opponent, users will either go first or second based on random decision (to ensure fairness), and users will be told the decision once the game begins
+- Users can take turns with their opponent by interacting with the 3x3 grid, placing their symbol in any of the available spaces with a mouse click
 - If the user makes an illegal move (for example, if the space clicked on is already filled), then they will be prompted to choose an open space on the grid
 - A user can win the game by matching 3 of their symbols in a row, either horizontally, diagonally, or vertically
 - In a game versus a computer, a user can lose the game if the computer-controlled opponent matches 3 of their symbols in a row either horizontally, diagonally, or vertically
