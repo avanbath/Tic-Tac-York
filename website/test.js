@@ -1,5 +1,3 @@
 function testFunction() {
-    console.log(23);
+    alert("Test");
 }
-
-testFunction()
