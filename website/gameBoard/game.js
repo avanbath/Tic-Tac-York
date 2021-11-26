@@ -1,13 +1,14 @@
 var start = new Date();
-
+var turn=1
 //when page is loaded, create gameboard and start and display a timer
 window.onload= function()
 {
     initializeBoard();
+    turnDisplay();
     setInterval(function() 
     {$("#timer").text(parseInt((new Date() - start) / 1000) + "s");}, 1000);
 }
-
+ 
 
 function initializeBoard() {
     // Initialize a counter (for use in ids)
@@ -29,8 +30,33 @@ function initializeBoard() {
             $(newInput).css("height", "180px");
             //display each button to the screen
             $("#gameBoard").append(newInput);
+            //set an onclick attribute to the tiles so when they are clicked, a mark will appear
+            $("#space"+counter).click(function(){
+                if (turn==1){
+                    $(this).attr("src", "../images/xImage.png");
+                    $(this).prop("disabled", true);
+                    turn=2;
+                }
+                else{
+                    $(this).attr("src", "../images/oImage.png");
+                    $(this).prop("disabled", true);
+                    turn=1;
+                }
+                turnDisplay()
+            });
 
         }
     }
+
 }
 
+
+//Displays who's turn it is when called based on the variable turn
+function turnDisplay(){
+    if (turn==1){
+        $("#turn").text("Player 1's Turn");
+    }
+    else{
+        $("#turn").text("Player 2's Turn");
+    }
+}
