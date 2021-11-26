@@ -11,3 +11,24 @@ body {
     background-color: rgb(50, 50, 50);
     color: white;
 }
+
+#play{
+    margin: 5px 5px ;
+    background-color: yellow;
+    font-size: 40px;
+    padding: 20px 60px;
+    border-radius: 25px;
+
+}
+
+button{
+    margin: 5px 5px ;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 25px;
+}
+
+button:hover, #play:hover{
+    background-color:yellowgreen;
+}
