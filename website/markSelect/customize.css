@@ -11,3 +11,11 @@ body {
     background-color: rgb(50, 50, 50);
     color: white;
 }
+
+button{
+    margin: 5px 5px ;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 25px;
+}

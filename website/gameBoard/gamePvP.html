@@ -3,9 +3,9 @@
 <html lang="en">
     <head>
         <link href="game.css" rel="stylesheet" type="text/css">
-        <script src="game.js"></script>
+        <script src="gamePvP.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="code_breaker_client.js"></script>
+
     </head>
 
     <h1> Tic-Tac-York </h1>
@@ -15,7 +15,11 @@
         <!-- Elements with multiple instances to be transferred to JS functions -->
         <div id="gameBoard">
             <!-- Add grid image -->
-            <h2> Game Board </h2>
+            <h2> Game Board (Player vs Player) </h2>
+            
+        <div >
+            <p id="timer">0s</p> <!-- Add timer plugin -->
+        </div>
             <h2 id="turn"></h2>
         </div>
 
@@ -24,7 +28,7 @@
             <br>
             <button> How to Play </button> <!-- Opens pop-up (same one from main menu, same function(s) used) -->
             <br>
-            <button> Restart Game </button>
+            <button><a href="../gameBoard/gamePvP.html">Restart Game </a> </button>
             <br>
             <button><a href="../mainMenu/start.html"> Return to Main Menu </a></button>
         </div>
@@ -33,9 +37,6 @@
             <p> Game Prompts </p>
         </div>
 
-        <div >
-            <p id="timer"></p> <!-- Add timer plugin -->
-        </div>
         <div>
             <p>Opponent Information</p> 
         </div>

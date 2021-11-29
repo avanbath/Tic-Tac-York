@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Page for game board display -->
+<html lang="en">
+    <head>
+        <link href="game.css" rel="stylesheet" type="text/css">
+        <script src="gamePvC.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+
+    <h1> Tic-Tac-York </h1>
+
+    <body>
+        <!-- Add game board functionality through JQuery (also handles victory page) -->
+        <!-- Elements with multiple instances to be transferred to JS functions -->
+        <div id="gameBoard">
+            <!-- Add grid image -->
+            <h2> Game Board (Player vs Computer) </h2>
+            
+        <div >
+            <p id="timer">0s</p> <!-- Add timer plugin -->
+        </div>
+            <h2 id="turn"></h2>
+        </div>
+
+        <div>
+            <button> Tips & Tricks </button> <!-- Opens pop-up -->
+            <br>
+            <button> How to Play </button> <!-- Opens pop-up (same one from main menu, same function(s) used) -->
+            <br>
+            <button><a href="../gameBoard/gamePvC.html">Restart Game </a> </button>
+            <br>
+            <button><a href="../mainMenu/start.html"> Return to Main Menu </a></button>
+        </div>
+
+        <div>
+            <p> Game Prompts </p>
+        </div>
+
+        <div>
+            <p>Opponent Information</p> 
+        </div>
+        
+        <footer> Author Credentials, Course Information, Date </footer>
+        <!-- Add weather plugin beside footer -->
+    </body>
+</html>

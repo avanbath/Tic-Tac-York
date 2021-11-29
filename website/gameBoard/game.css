@@ -12,3 +12,10 @@ body {
     color: white;
 }
 
+button{
+    margin: 5px 5px ;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 25px;
+}
