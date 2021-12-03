@@ -3,7 +3,7 @@
 
 Team Name: Code Stars
 
-Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | Samantha Visconti (sam84v@my.yorku.ca, Section A, Lab 03) | Avaninder Bath (avanbath@my.yorku.ca, Section A, Lab 03)
+Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | ~~Samantha Visconti (sam84v@my.yorku.ca, Section A, Lab 03)~~ | Avaninder Bath (avanbath@my.yorku.ca, Section A, Lab 03)
 
 Project Title: Tic-Tac-York
 
