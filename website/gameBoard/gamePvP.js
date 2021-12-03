@@ -1,5 +1,5 @@
 var start = new Date();
-var turn=1
+var turn = 1;
 //when page is loaded, create gameboard and start and display a timer
 window.onload= function()
 {
@@ -59,4 +59,17 @@ function turnDisplay(){
     else{
         $("#turn").text("Player 2's Turn");
     }
+}
+
+function openTips(){
+    document.getElementById("tipsForm").style.display = "block";
+}
+function closeTips() {
+    document.getElementById("tipsForm").style.display = "none";
+}
+function openHow(){
+    document.getElementById("howForm").style.display = "block";
+}
+function closeHow() {
+    document.getElementById("howForm").style.display = "none";
 }

@@ -1,21 +1,120 @@
-a {
-    text-decoration: none;
+body {
+    color: white;
+    background-color: rgb(50, 50, 50);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#headers {
+    background-color: rgb(200, 0, 0);
+    height: fit-content;
 }
 
 h1 {
-    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5px;
 }
 
-body {
-    text-align: center;
-    background-color: rgb(50, 50, 50);
-    color: white;
+h2 {
+    display: inline-block;
+    background-color: black;
+    width: 15em;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 30px;
 }
 
-button{
-    margin: 5px 5px ;
-    background-color: yellow;
+#content {
+    margin-top: 5px;
+    margin-bottom: 25vh;
+}
+
+#lists {
+    display: inline-block;
+    color: black;
+    margin: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#selections {
+    display: inline-block;
+    background-color: lightgrey;
+    height: 200px;
+    width: 210px;
+    margin: 0;
+    text-align: left;
+    overflow: auto;
+}
+
+h3 {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table {
+    display: block;
+}
+
+td {
+    width: 100vw;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+td:hover {
+    background-color: grey;
+}
+
+#chosen {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+img {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+p {
+    font-size: 40px;
+}
+
+button {
+    color: white;
+    background-color: rgb(200, 0, 0);
+    width: 250px;
     font-size: 20px;
-    padding: 15px 32px;
-    border-radius: 25px;
+    margin: 5px;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+    text-align: left;
 }

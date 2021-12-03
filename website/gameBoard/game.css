@@ -1,11 +1,10 @@
-a {
-    text-decoration: none;
-}
-
 h1 {
     color: white;
 }
 
+h1.form{
+    color: black
+}
 body {
     text-align: center;
     background-color: rgb(50, 50, 50);
@@ -18,4 +17,36 @@ button{
     font-size: 20px;
     padding: 15px 32px;
     border-radius: 25px;
+}
+
+button:hover{
+    background-color:white
+}
+
+#tipsForm, #howForm {
+    display: none;
+    border: 3px solid black;
+    max-width: 650px;
+    margin: auto;
+    background-color: lightgray
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(34, 33, 33)
+}
+
+#formContainer{
+
+    padding: 10px;
+
+
+}
+
+.close{
+    background-color: rgb(249,62,62);
+    margin: 5px 5px ;
+    font-size: 20px;
+    border-radius: 1px;
 }

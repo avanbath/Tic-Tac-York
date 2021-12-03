@@ -3,24 +3,28 @@
 <html lang="en">
     <head>
         <link href="start.css" rel="stylesheet" type="text/css">
-        <script src="start.js"></script>
+        <script src="../popUps.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
-    <h1> Tic-Tac-York </h1>
-
     <body>
-        <h2> Game Catchphrase </h2>
-
-        <div>
-            <button id="play"><a href="../modeSelect/gamemodes.html"> Play </a></button>
-
-            <br><br>
-            <button><a href="../markSelect/customize.html"> Customize Mark </a></button>
-            <br>
-            <button> How to Play </button> <!-- Opens pop-up -->
+        <div id="headers">
+            <h1>Tic-Tac-York</h1>
+            <h2>Game Catchphrase</h2>
         </div>
 
-        <footer> Author Credentials, Course Information, Date </footer>
-        <!-- Add weather plugin beside footer -->
+        <form id="content">
+            <button id="play" type="submit" formaction="../modeSelect/gamemodes.html">Play</button>
+            
+            <br><br><br>
+            <button type="submit" formaction="../markSelect/customize.html">Customize Mark</button>
+            <br>
+            <button type="button" onclick="createPopUp('how')">How to Play</button>
+        </form>
+
+        <footer>
+            Authors: Avaninder Bath & Justin Blasetti | EECS1012 Section A (Lab 03) 
+            @ Lassonde School of Engineering, York University | November 30, 2021
+        </footer>
     </body>
 </html>

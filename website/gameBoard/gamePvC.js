@@ -91,3 +91,17 @@ function cpuMove(){
     },2000);
 
 }
+
+
+function openTips(){
+    document.getElementById("tipsForm").style.display = "block";
+}
+function closeTips() {
+    document.getElementById("tipsForm").style.display = "none";
+}
+function openHow(){
+    document.getElementById("howForm").style.display = "block";
+}
+function closeHow() {
+    document.getElementById("howForm").style.display = "none";
+}
