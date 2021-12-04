@@ -6,21 +6,23 @@
         <script src="gamemodes.js"></script>
     </head>
 
-    <h1> Tic-Tac-York </h1>
-
     <body>
-        <h2> Select Game Mode </h2>
-
-        <div>
-            <button><a href="../gameBoard/gamePvC.html"> Player VS Computer </a></button>
-            <br>
-            <button><a href="../gameBoard/gamePvP.html"> Player VS Player </a></button>
-
-            <br><br>
-            <button><a href="../mainMenu/start.html"> Return to Main Menu </a></button>
+        <div id="headers">
+            <h1> Tic-Tac-York </h1>
+            <h2> Select Game Mode </h2>
         </div>
+
+        <form id="content">
+            <button type="submit" formaction="../gameBoard/gamePvC.html">Player VS Computer</button>
+            <br>
+            <button type="submit" formaction="../gameBoard/gamePvP.html">Player VS Player</button>
+            <br><br><br>
+            <button id="return" type="submit" formaction="../mainMenu/start.html">Return to Main Menu</button>
+        </form>
         
-        <footer> Author Credentials, Course Information, Date </footer>
-        <!-- No weather plugin here -->
+        <footer>
+            Authors: Avaninder Bath & Justin Blasetti | EECS1012 Section A (Lab 03) 
+            @ Lassonde School of Engineering, York University | November 30, 2021
+        </footer>
     </body>
 </html>

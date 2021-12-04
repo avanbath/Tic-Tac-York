@@ -24,9 +24,14 @@ function createPopUp(button) {
     $(newHeader).css("font-weight", "bold");
     $(newHeader).css("margin", "0");
     $(newHeader).css("padding", "5px");
+    $(newHeader).css("border-bottom", "3px solid black");
 
     var newList = document.createElement("ul");
     $(newDiv).append(newList);
+    $(newList).css("margin-top", "0");
+    $(newList).css("margin-bottom", "0");
+    $(newList).css("margin-left", "20px");
+    $(newList).css("padding", "20px");
     $(newList).css("text-align", "left");
 
     if (button == "how") {

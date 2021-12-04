@@ -31,8 +31,8 @@ h2 {
 }
 
 #content {
-    margin-top: 5px;
-    margin-bottom: 25vh;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 #lists {
@@ -49,7 +49,6 @@ h2 {
     height: 200px;
     width: 210px;
     margin: 0;
-    text-align: left;
     overflow: auto;
 }
 
@@ -75,31 +74,56 @@ td:hover {
     background-color: grey;
 }
 
+#p1Mark {
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#p2Mark {
+    display: inline;
+    background-color: black;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 #chosen {
     display: flex;
     margin-bottom: 20px;
     justify-content: center;
+    overflow: hidden;
 }
 
 img {
     background-color: white;
-    height: 150px;
-    width: 150px;
-    margin-right: 55px;
-    margin-left: 55px;
+    height: 140px;
+    width: 140px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-p {
+#versus {
     font-size: 40px;
+    font-weight: bold;
+    margin-top: 75px;
 }
 
 button {
     color: white;
     background-color: rgb(200, 0, 0);
-    width: 250px;
+    width: 235px;
     font-size: 20px;
     margin: 5px;
-    padding: 25px;
+    padding: 20px;
     border: 3px solid black;
     border-radius: 15px;
 }

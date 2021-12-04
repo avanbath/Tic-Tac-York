@@ -21,7 +21,28 @@ window.onload = function() {
 }
 
 function setMark(mark, player) {
-    $("#img" + player).attr("src", "../images/mark" + mark + ".png");
+    var p1Mark = $("#img1")[0].getAttribute("src");
+    var p2Mark = $("#img2")[0].getAttribute("src");
+    var newMark = "../images/mark" + mark + ".png";
 
-    // Add a server side solution to save the selected mark.
+    if (player == 1) {
+        if (newMark == p2Mark) {
+            alert("Mark " + mark + " is already in use by Player 2 / Computer. Please choose another mark.");
+        }
+        else {
+            $("#p1Mark").text("Mark " + mark);
+            $("#img1").attr("src", newMark);
+        }
+    }
+    else if (player == 2) {
+        if (newMark == p1Mark) {
+            alert("Mark " + mark + " is already in use by Player 1. Please choose another mark.");
+        }
+        else {
+            $("#p2Mark").text("Mark " + mark);
+            $("#img2").attr("src", newMark);
+        }
+    }
+
+    // Add server side solution to save selected mark.
 }

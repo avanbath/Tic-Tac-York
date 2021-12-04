@@ -32,7 +32,7 @@ h2 {
 
 #content {
     margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-bottom: 50px;
 }
 
 button {
@@ -53,7 +53,7 @@ button {
     margin-top: -20px;
 }
 
-button:hover, #play:hover {
+button:hover {
     color: black;
     background-color: lightgrey;
 }
