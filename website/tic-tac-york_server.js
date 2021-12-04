@@ -50,15 +50,15 @@ app.post('/post', (req, res) => {
         //Now begin checking if player 2 has won.....check if player 2 wins horizontally
         else if ((z['moves'].includes("space1")&&z['moves'].includes("space2")&&z['moves'].includes("space3"))&&z['movesEach'].includes("space12")&&z['movesEach'].includes("space22")&&z['movesEach'].includes("space32")==true){
             win=true;
-            play1Win=true
+            play12Win=true
         }
         else if ((z['moves'].includes("space4")&&z['moves'].includes("space5")&&z['moves'].includes("space6"))&&z['movesEach'].includes("space42")&&z['movesEach'].includes("space52")&&z['movesEach'].includes("space62")==true){
             win=true;
-            play1Win=true
+            play2Win=true
         }
         else if ((z['moves'].includes("space7")&&z['moves'].includes("space8")&&z['moves'].includes("space9"))&&z['movesEach'].includes("space72")&&z['movesEach'].includes("space82")&&z['movesEach'].includes("space92")==true){
             win=true;
-            play1Win=true
+            play2Win=true
         }
         //check if player 2 has won vertically
         else if ((z['moves'].includes("space1")&&z['moves'].includes("space4")&&z['moves'].includes("space7"))&&z['movesEach'].includes("space12")&&z['movesEach'].includes("space42")&&z['movesEach'].includes("space72")==true){

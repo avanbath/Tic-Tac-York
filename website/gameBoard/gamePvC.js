@@ -1,13 +1,21 @@
 var start = new Date();
-var turn=1;
+var turn = 1;
+var player1Mark="../images/xImage.png"
+var player2Mark="../images/oImage.png"
 var movesMade=[];
+var movesMadeEach=[];
+var url = "http://localhost:3000/post";
+var p1Name=""
+
 //when page is loaded, create gameboard and start and display a timer
 window.onload= function()
 {
-    initializeBoardPvp();
-    turnDisplay();
+    p1Name = prompt("Please enter first player name", "");
     setInterval(function() 
     {$("#timer").text(parseInt((new Date() - start) / 1000) + "s");}, 1000);
+    turnDisplay();
+    initializeBoardPvp();
+
 }
  
 
@@ -37,12 +45,14 @@ function initializeBoardPvp() {
             //this code/function is only run when a button is pressed
             $("#space"+counter).click(function(){
                 if (turn==1){
-                    $(this).attr("src", "../images/xImage.png");
+                    $(this).attr("src", player1Mark);
                     //appends the move to the list of all moves made, so no illegal moves can occur
-                    movesMade.push($(this).attr("id"));
                     $(this).prop("disabled", true);
+                    movesMade.push($(this).attr("id"));
+                    movesMadeEach.push($(this).attr("id")+"1");
                     $(".moveButtons").prop("disabled", true);
-
+                    $(this).attr("class","playerMark1");
+                    process_attempt();
                     cpuMove();
 
                     
@@ -54,14 +64,20 @@ function initializeBoardPvp() {
 
         }
     }
-
+    $.post(url+'?data='+JSON.stringify({
+        'name1': p1Name, 
+        'name2': p2Name,
+        'mark1': player1Mark,
+        'mark2': player2Mark,
+    }),
+    response);
 }
 
 
 //Displays who's turn it is when called based on the variable turn
 function turnDisplay(){
     if (turn==1){
-        $("#turn").text("Player 1's Turn");
+        $("#turn").text(p1Name+"'s Turn");
     }
     else{
         $("#turn").text("Computer's Turn");
@@ -80,10 +96,12 @@ function cpuMove(){
         while ((jQuery.inArray("space"+cpuMove,movesMade)!=-1)){
             cpuMove=Math.floor(Math.random()*9)+1;
         }
-        $("#space"+cpuMove).attr("src","../images/oImage.png");
+        $("#space"+cpuMove).attr("src",player2Mark);
         movesMade.push("space"+cpuMove);
+        movesMadeEach.push("space"+cpuMove+"2");
         $(".moveButtons").prop("disabled", false);
         $("#space"+cpuMove).prop("disabled", true);
+        process_attempt()
 
     }
     turn=1;
@@ -92,7 +110,45 @@ function cpuMove(){
 
 }
 
+function process_attempt(){
+    $.post(
+        url+'?data='+JSON.stringify({
+            'name1': p1Name, 
+            'mark1': player1Mark,
+            'mark2': player2Mark,
+            'moves' : movesMade,
+            'movesEach' : movesMadeEach,
+            'action' : 'evaluate',
+            'howMany': movesMade.length
 
+        }),
+        response
+    );
+}
+
+function response(data, status){
+    var response = JSON.parse(data);
+    console.log(data);
+    if (response['action']=='evaluate'){
+        var win=response['win'];
+        var player1Win=response['player1']
+        var player2Win=response['player2']
+        var tie=response['tie'];
+        if (win==true&&player1Win==true){
+            alert(p1Name+" wins!!")
+            window.location.href="../gameOver/end.html"
+        }
+        else if (win==true&&player2Win==true){
+            alert("Computer wins!!")
+            window.location.href="../gameOver/end.html"
+        }
+        else if(tie==true){
+            alert("Cat's Game!")
+            window.location.href="../gameOver/end.html"
+        }
+
+    }
+}
 function openTips(){
     document.getElementById("tipsForm").style.display = "block";
 }
