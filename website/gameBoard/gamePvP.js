@@ -113,6 +113,8 @@ function process_attempt(){
             'moves' : movesMade,
             'movesEach' : movesMadeEach,
             'action' : 'evaluate',
+            'howMany': movesMade.length
+
         }),
         response
     );
@@ -136,6 +138,7 @@ function response(data, status){
         }
         else if(tie==true){
             alert("Cat's Game!")
+            window.location.href="../gameOver/end.html"
         }
 
     }

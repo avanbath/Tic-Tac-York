@@ -83,7 +83,7 @@ app.post('/post', (req, res) => {
             play2Win=true
         }
         //if win was never updated to true and all possible moves are made, tie game
-        else if(win=false&&z['moves'].length==9){
+        else if(z['howMany']==9){
             catGame=true
         }
         var jsontext = JSON.stringify({
