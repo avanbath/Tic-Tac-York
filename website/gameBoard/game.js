@@ -71,11 +71,24 @@ function initBoard() {
             $(newInput).attr("id", "space" + counter);
 
             // CSS styling for each tile is created
-            $(newInput).css("background-color", "lightgrey");
+            $(newInput).css("background-color", "ivory");
             $(newInput).css("height", "150px");
             $(newInput).css("width", "150px");
+            if (j==0){
+            $(newInput).css("border-left", "2px solid red");
+            }
+            if (j==2){
+                $(newInput).css("border-right", "2px solid red");
+            }
             $(newInput).css("margin-bottom", "-5px");
-
+            if (i==3){
+                $(newInput).css("margin-bottom", "15px");
+                $(newInput).css("border-bottom", "2px solid red");
+            }
+            if (i==1){
+            $(newInput).css("margin-top", "15px");
+            $(newInput).css("border-top", "2px solid red");
+            }
             // Add each empty tile to the game board
             $("#gameBoard").append(newInput);
 
