@@ -40,19 +40,19 @@ h2 {
 }
 
 #content {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #openArea {
     display: inline-block;
     background-color: black;
-    border: 3px solid red;
     margin-top: 20px;
+    border: 3px solid rgb(200, 0, 0);
 }
 
 #gameBoard {
-    display: inline;
-    margin-top: 15px;
+    display: block;
+    margin-top: -20px;
 }
 
 img {
@@ -63,16 +63,16 @@ img {
 
 #buttons {
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 button {
-    display: table;
+    display: inline-block;
     color: white;
     background-color: rgb(200, 0, 0);
-    width: 215px;
+    width: 225px;
     font-size: 20px;
     margin-bottom: 0px;
-    margin-left: 20px;
     padding: 15px;
     border: 3px solid black;
     border-radius: 15px;
@@ -84,11 +84,59 @@ button:hover {
 }
 
 #prompts {
-    display: inline;
+    display: block;
 }
 
-#h3 {
+#turn {
+    display: block;
+    font-size: 20px;
+    width: auto;
+}
+
+#closed {
+    display: block;
+    background-color: grey;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+#timeContainer {
     display: inline-block;
+    background-color: black;
+    width: 200px;
+    border-radius: 30px;
+}
+
+#p1Name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    background-color: lightgrey;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 5px solid black;
+}
+
+#versus {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#p2Name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#img2 {
+    background-color: lightgrey;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 5px solid black;
 }
 
 footer {
@@ -98,5 +146,5 @@ footer {
     width: 100%;
     font-size: 12px;
     padding: 3px;
-    text-align: left;
+    text-align: center;
 }

@@ -25,6 +25,10 @@
 
         <form id="content">
             <div id="openArea">
+                <div id="prompts">
+                    <h3 id="turn"></h3>
+                </div>
+
                 <div id="gameBoard"></div>
 
                 <div id="buttons">
@@ -36,28 +40,21 @@
                     <br>
                     <button type="submit" formaction="../mainMenu/start.html">Return to Main Menu</button>
                 </div>
-
-                <div id="prompts">
-                    <h2>Game Prompts</h2>
-                    <h3 id="turn"></h3>
-                </div>
             </div>
 
             <div id="closed">
-                <h3>
-                    Time Elapsed:
+                <h3 id="timeContainer">
+                    <span>Time Elapsed:</span>
                     <div id="timeslot"></div>
                 </h3>
 
                 <div>
                     <p id="p1Name"></p>
-                    <br>
                     <img id="img1">
                 </div>
                 <p id="versus">VS</p>
                 <div>
                     <p id="p2Name"></p>
-                    <br>
                     <img id="img2">
                 </div>
             </div>
