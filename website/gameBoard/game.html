@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
+
+    HTML - Game Board Page (Player VS Computer & Player VS Player)
+-->
+
+<html lang="en">
+    <head>
+        <link href="game.css" rel="stylesheet" type="text/css">
+        <script src="game.js"></script>
+        <script src="../popUps.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Tic-Tac-York</h1>
+            <h2>Player VS Computer</h2>
+        </div>
+
+        <form id="content">
+            <div id="openArea">
+                <div id="gameBoard"></div>
+
+                <div id="buttons">
+                    <button type="button" onclick="createPopUp('tips')">Tips & Tricks</button>
+                    <br>
+                    <button type="button" onclick="createPopUp('how')">How to Play</button>
+                    <br>
+                    <button type="submit" formaction="../gameBoard/game.html">Restart Game</button>
+                    <br>
+                    <button type="submit" formaction="../mainMenu/start.html">Return to Main Menu</button>
+                </div>
+
+                <div id="prompts">
+                    <h2>Game Prompts</h2>
+                    <h3 id="turn"></h3>
+                </div>
+            </div>
+
+            <div id="closed">
+                <h3 id="timer"></h3>
+                <div>
+                    <p id="p1Name"></p>
+                    <br>
+                    <img id="img1">
+                </div>
+                <p id="versus">VS</p>
+                <div>
+                    <p id="p2Name"></p>
+                    <br>
+                    <img id="img2">
+                </div>
+            </div>
+        </form>
+        
+        <footer>
+            EECS1012 Section A (Lab 03) Term Project | Code Stars (Avaninder Bath, Justin Blasetti) | Lassonde School of Engineering, York University | November 30, 2021
+        </footer>
+    </body>
+</html>

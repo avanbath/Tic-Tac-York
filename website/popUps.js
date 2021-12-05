@@ -1,3 +1,13 @@
+/*
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
+
+    Client Side JS - "How to Play" & "Tips & Tricks" Pop Ups
+*/
+
+
 function createPopUp(button) {
     $("#headers").css("display", "none");
     $("form").css("display", "none");

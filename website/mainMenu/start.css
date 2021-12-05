@@ -1,3 +1,12 @@
+/*
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
+
+    CSS - Main Menu (Start) Page
+*/
+
 body {
     color: white;
     background-color: rgb(50, 50, 50);
@@ -8,7 +17,7 @@ body {
     text-align: center;
 }
 
-#headers {
+#header {
     background-color: rgb(200, 0, 0);
     height: fit-content;
 }

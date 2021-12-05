@@ -1,29 +1,44 @@
 <!DOCTYPE html>
-<!-- Page for game completion -->
+
+<!--
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
+
+    HTML - Game Over Page
+-->
+
 <html lang="en">
     <head>
         <link href="end.css" rel="stylesheet" type="text/css">
         <script src="end.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
 
-    <h1> Tic-Tac-York </h1>
-
     <body>
-        <h2> Player 1 / Player 2 / Computer Victory Message </h2>
-
-        <!-- Add player/trophy & tie image -->
-
-        <div>
-            <p> Game Time </p> <!-- Add timer plugin (time elapsed from game board display) -->
+        <div id="header">
+            <h1>Tic-Tac-York</h1>
+            <h2>Game Over</h2>
         </div>
 
-        <div>
-            <button><a href="../modeSelect/gamemodes.html"> New Game </a></button>
-            <br>
-            <button><a href="../mainMenu/start.html"> Return to Main Menu </a></button>
-        </div>
+        <form id="content">
+            <h2 id="description"></h2>
+
+            <div>
+                <img id="trophy1" src="../images/trophy.png">
+                <div id="showcase"></div>
+                <img id="trophy2" src="../images/trophy.png">
+            </div>
+
+            <h3>Game Time:</h3>
+
+            <button type="submit" formaction="../modeSelect/gamemodes.html">New Game</button>
+            <button type="submit" formaction="../mainMenu/start.html">Return to Main Menu</button>
+        </form>
         
-        <footer> Author Credentials, Course Information, Date </footer>
-        <!-- No weather plugin here -->
+        <footer>
+            EECS1012 Section A (Lab 03) Term Project | Code Stars (Avaninder Bath, Justin Blasetti) | Lassonde School of Engineering, York University | November 30, 2021
+        </footer>
     </body>
 </html>

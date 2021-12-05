@@ -1,52 +1,99 @@
-h1 {
-    color: white;
-}
+/*
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
 
-h1.form{
-    color: black
-}
+    CSS - Game Board Page (Player VS Computer & Player VS Player)
+*/
+
 body {
-    text-align: center;
-    background-color: rgb(50, 50, 50);
     color: white;
-}
-
-button{
-    margin: 5px 5px ;
-    background-color: yellow;
-    font-size: 20px;
-    padding: 15px 32px;
-    border-radius: 25px;
-}
-
-button:hover{
-    background-color:white
-}
-
-#tipsForm, #howForm {
-    display: none;
-    border: 3px solid black;
-    max-width: 650px;
-    margin: auto;
-    background-color: lightgray
-}
-
-li{
+    background-color: rgb(50, 50, 50);
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    color: rgb(34, 33, 33)
 }
 
-#formContainer{
-
-    padding: 10px;
-
-
+#header {
+    background-color: rgb(200, 0, 0);
+    height: fit-content;
 }
 
-.close{
-    background-color: rgb(249,62,62);
-    margin: 5px 5px ;
+h1 {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+h2 {
+    display: inline-block;
+    background-color: black;
+    width: 15em;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#content {
+    margin-bottom: 20px;
+}
+
+#openArea {
+    display: inline-block;
+    background-color: black;
+}
+
+#gameBoard {
+    display: inline;
+    margin-top: 15px;
+}
+
+img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#buttons {
+    display: inline-block;
+}
+
+button {
+    display: table;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    width: 215px;
     font-size: 20px;
-    border-radius: 1px;
+    margin-bottom: -15px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+#prompts {
+    display: inline;
+}
+
+#h3 {
+    display: inline-block;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+    text-align: left;
 }

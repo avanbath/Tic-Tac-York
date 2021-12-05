@@ -1,13 +1,101 @@
-a {
-    text-decoration: none;
+/*
+    EECS1012 Section A Lab 03 - Term Project
+    Team Name: Code Stars
+    Team Members: Avaninder Bath, Justin Blasetti
+    Project Title: Tic-Tac-York
+
+    CSS - Game Over Page
+*/
+
+body {
+    color: white;
+    background-color: rgb(50, 50, 50);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#header {
+    background-color: rgb(200, 0, 0);
+    height: fit-content;
 }
 
 h1 {
-    color: white;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5px;
 }
 
-body {
-    text-align: center;
-    background-color: rgb(50, 50, 50);
+h2 {
+    display: inline-block;
+    background-color: black;
+    width: 15em;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#content {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#description {
+    font-weight: normal;
+    margin-bottom: 35px;
+    padding: 15px;
+    border-radius: 0;
+}
+
+#trophy1 {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 35px;
+}
+
+#trophy2 {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 35px;
+}
+
+#showcase {
+    display: inline;
+}
+
+h3 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+button {
     color: white;
+    background-color: rgb(200, 0, 0);
+    width: 225px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    font-size: 12px;
+    padding: 3px;
+    text-align: left;
 }
