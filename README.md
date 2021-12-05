@@ -15,7 +15,6 @@ Following principles of the software development life cycle, we will be creating
 - Users will be shown a welcome screen with the option to play, customize their mark, or learn how to play the game
 - Users can interact with a “Play” button that will allow them to select from two game modes; player versus computer or player versus player
 - Users can interact with a “Tips and Tricks” button during the game to get helpful hints and tips to improve their strategy
-- ~~Users can view their local weather forecast on the bottom-right of the screen, shown as widget that can be hidden/minimized for convenience~~
 - Users can select from a list of icons (referred to as "marks") to use as their symbol for the game by pressing the "Customize Mark" button in the main menu
 - In either game mode, users will go first/second based on random decision (to ensure fairness), and users will be told the decision once the game begins
 - Users can take turns with their opponent by interacting with the 3x3 grid, placing their symbol in any of the available spaces (mouse click)
