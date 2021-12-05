@@ -12,7 +12,6 @@ function selectPVC() {
     sessionStorage.setItem("gamemode", "PVC");
 }
 
-
 // Set the user requested gamemode as Player VS Player
 function selectPVP() {
     sessionStorage.setItem("gamemode", "PVP");

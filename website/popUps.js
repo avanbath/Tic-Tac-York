@@ -7,12 +7,11 @@
     Client Side JS - "How to Play" & "Tips & Tricks" Pop Ups
 */
 
-
+// Create a pop up depending on either request
 function createPopUp(button) {
     $("#headers").css("display", "none");
     $("form").css("display", "none");
     $("footer").css("display", "none");
-
     
     var newDiv = document.createElement("div");
     $("body").append(newDiv);
@@ -44,6 +43,7 @@ function createPopUp(button) {
     $(newList).css("padding", "20px");
     $(newList).css("text-align", "left");
 
+    // If a "How to Play" button is clicked, create this pop up information
     if (button == "how") {
         $(newHeader).text("How to Play")
 
@@ -64,6 +64,7 @@ function createPopUp(button) {
         $(point3).text("Both players (or player and computer) will continue making moves until the win condition is reached.");
         $(point4).html("<b>Win Condition:</b> Match 3 of your marks/symbols in a row, either vertically, horizontally, or diagonally.");
     }
+    // If a "Tips & Tricks" button is clicked, create this pop up information
     else if (button == "tips") {
         $(newHeader).text("Tips & Tricks")
 
@@ -90,7 +91,7 @@ function createPopUp(button) {
     $(newButton).text("OK");
 }
 
-
+// Close the pop up, restoring all previous information on the current page
 function closePopUp() {
     $("#headers").css("display", "block");
     $("form").css("display", "block");
