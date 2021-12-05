@@ -34,11 +34,10 @@ window.onload = function() {
 
     // Set the timer and add it to the display
     setInterval(function() {
-        var newLabel = document.createElement("p");
+        var newLabel = document.createElement("h3");
         $(newLabel).text(parseInt((new Date() - startTime) / 1000) + " s");
         $(newLabel).css("font-weight", "normal");
-        $("#timer").html("Time Elapsed:<br>"); 
-        $("#timer").append(newLabel);
+        $("#timeslot").html(newLabel);
     }, 1000);
 
     // Set the appropriate player images on the display
@@ -141,10 +140,10 @@ function initBoard() {
 
     // Build JSON data to send to the server side
     $.post(url + '?data=' + JSON.stringify({
-        'name1': p1Name,
-        'name2': p2Name,
-        'mark1': player1Mark,
-        'mark2': player2Mark,
+        "name1": p1Name,
+        "name2": p2Name,
+        "mark1": player1Mark,
+        "mark2": player2Mark,
     }), response);
 }
 
@@ -188,14 +187,14 @@ function cpuMove(){
 // Build JSON data to send to the server side (including the moves made and calculation to perform)
 function processAttempt(){
     $.post(url + '?data=' + JSON.stringify ({
-            'name1': p1Name, 
-            'name2': p2Name,
-            'mark1': player1Mark,
-            'mark2': player2Mark,
-            'moves': movesMade,
-            'movesEach': movesMadeEach,
-            'action': 'evaluate',
-            'howMany': movesMade.length
+            "name1": p1Name, 
+            "name2": p2Name,
+            "mark1": player1Mark,
+            "mark2": player2Mark,
+            "moves": movesMade,
+            "movesEach": movesMadeEach,
+            "action": 'evaluate',
+            "howMany": movesMade.length
         }), response);
 }
 
@@ -225,7 +224,7 @@ function response(data, status){
             }
             
             // Save the time elapsed before moving on to the game over page
-            sessionStorage.setItem("timer", $("#timer").text());
+            sessionStorage.setItem("timer", $("#timeslot").text());
             window.location.href = "../gameOver/end.html";
         }
         // Otheriwse, if the game is tied, set the names of both players as placeholders appropriately
@@ -234,7 +233,7 @@ function response(data, status){
             sessionStorage.setItem("winName", p1Name);
             sessionStorage.setItem("loseName", p2Name);
             // Save the time elapsed before moving on to the game over page
-            sessionStorage.setItem("timer", $("#timer").text());
+            sessionStorage.setItem("timer", $("#timeslot").text());
             window.location.href = "../gameOver/end.html";
         }
     }

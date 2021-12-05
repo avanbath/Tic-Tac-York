@@ -7,10 +7,13 @@
     Client Side JS - Game Mode Selection Page
 */
 
+// Set the user requested gamemode as Player VS Computer
 function selectPVC() {
     sessionStorage.setItem("gamemode", "PVC");
 }
 
+
+// Set the user requested gamemode as Player VS Player
 function selectPVP() {
     sessionStorage.setItem("gamemode", "PVP");
 }

@@ -38,8 +38,8 @@ window.onload = function() {
     $("#showcase").append(winDisplay);
 
     // Carry over the time elapsed from the game board page and add it to the display
-    var timeDisplay = document.createElement("p");
+    var timeDisplay = document.createElement("h3");
     $(timeDisplay).css("font-weight", "normal");
     $(timeDisplay).text(sessionStorage.getItem("timer"));
-    $("h3").append(timeDisplay);
+    $("#timeslot").append(timeDisplay);
 }
