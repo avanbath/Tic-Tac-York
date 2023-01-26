@@ -1,14 +1,14 @@
 # Tic-Tac-York Web Application Project
-	Repository for the Tic-Tac-York web application. This repository is based on the tic-tac-toe game idea from EECS1012 at York University.
+	Repository for the Tic-Tac-York web application. This repository is based on the game of tic-tac-toe in the theme of York University.
 
 Team Name: Code Stars
 
-Team Members: Justin Blasetti (justinb9@my.yorku.ca, Section A, Lab 03) | ~~Samantha Visconti (sam84v@my.yorku.ca, Section A, Lab 03)~~ | Avaninder Bath (avanbath@my.yorku.ca, Section A, Lab 03)
+Team Members: Justin Blasetti (justinb9@my.yorku.ca) | ~~Samantha Visconti (sam84v@my.yorku.ca)~~ | Avaninder Bath (avanbath@my.yorku.ca)
 
 Project Title: Tic-Tac-York
 
 ## Description
-Following principles of the software development life cycle, we will be creating a customized and unique version of tic-tac-toe in the form of a web application, which is based on one of the suggested EECS1012 projects provided. The web app will consist of a dynamic, minimalistic user interface with a primary game area for player interaction, including a legend with the rules and helpful tips for the player. The game will follow the traditional tic-tac-toe rules, in which two players (user and computer opponent, or user versus user) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. Users will have the option to choose their preferred mark before starting the game. Other helpful features will also be part of this web application for the player's convenience, and to fulfill the purpose of our project being truly one-of-a-kind.
+Following principles of the software development life cycle, we have created a customized and unique version of tic-tac-toe in the form of a web application. This web app consists of a dynamic, minimalistic user interface with a primary game area for player interaction, including a legend with the rules and helpful tips for the player. The game follows traditional tic-tac-toe rules, in which two players (user and computer opponent, or user versus user) take turns adding their assigned unique mark to a 3x3 grid until one player has matched 3 marks in a row, in any direction, to win. Users have the option to choose their preferred mark before starting the game. Other helpful features are also implemented for the player's convenience, and to fulfill the purpose of our project being truly one of a kind.
 
 ## Functional Requirements
 - Users can play a game of tic-tac-toe versus a computer-controlled opponent or another local user with a visual board display
@@ -26,10 +26,10 @@ Following principles of the software development life cycle, we will be creating
 - Users can choose to play the game again or they can return to the main menu
 
 ## Project Interface Design (Wireframes)
-Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york1012/blob/caf0fb30bea8bcaa62adb228dd945f69c2985c15/Wireframes.pdf)
+Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york/blob/caf0fb30bea8bcaa62adb228dd945f69c2985c15/Wireframes.pdf)
 
 ## How To Start Playing
 Users may start the website by first initializing an express server (from Node.js) in the same directory as the source files. The steps are as follows:
-- Start the Node.js / express server (via Command Prompt / PowerShell / Windows Terminal or another supported command line interface) using: `node server.js`
-- Open start.html from the [mainMenu](https://github.com/avanbath/tic-tac-york1012/tree/main/website/mainMenu) subfolder using a supported browser
+- Start the Node.js / express server (via Command Prompt / PowerShell / Windows Terminal or another supported CLI) using: `node server.js`
+- Open start.html from the [mainMenu](https://github.com/avanbath/tic-tac-york/tree/main/website/mainMenu) subfolder using a supported browser
 - Enjoy the game!
