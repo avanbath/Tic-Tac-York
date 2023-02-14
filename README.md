@@ -1,4 +1,4 @@
-# Tic-Tac-York Web Application Project
+# Tic-Tac-York Application Project
 	Repository for the Tic-Tac-York web application. This repository is based on the game of tic-tac-toe, created as the EECS1012 course project at York University.
 
 Team Name: Code Stars
