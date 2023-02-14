@@ -1,4 +1,4 @@
-# Tic-Tac-York Application Project
+# Tic-Tac-York Web Application Project
 	Repository for the Tic-Tac-York web application. This repository is based on the game of tic-tac-toe, created as the EECS1012 course project at York University.
 
 Team Name: Code Stars
@@ -28,7 +28,7 @@ Following principles of the software development life cycle, we have created a c
 ## Project Interface Design (Wireframes)
 Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york/blob/caf0fb30bea8bcaa62adb228dd945f69c2985c15/Wireframes.pdf)
 
-## How To Start Playing
+## How To Start The Application
 Users may start the website by first initializing an express server (from Node.js) in the same directory as the source files. The steps are as follows:
 - Start the Node.js / express server (via Command Prompt / PowerShell / Windows Terminal or another supported CLI) using: `node server.js`
 - Open start.html from the [mainMenu](https://github.com/avanbath/tic-tac-york/tree/main/website/mainMenu) subfolder using a supported browser
