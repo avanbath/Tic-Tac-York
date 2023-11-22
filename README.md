@@ -30,6 +30,6 @@ Combined Wireframes: [Click Here (PDF)](https://github.com/avanbath/tic-tac-york
 
 ## How To Start The Application
 Users may start the website by first initializing an express server (from Node.js) in the same directory as the source files. The steps are as follows:
-- Start the Node.js / express server (via Command Prompt / PowerShell / Windows Terminal or another supported CLI) using: `node server.js`
+- Start the Node / Express server (via Command Prompt / PowerShell / Windows Terminal or another supported CLI) using: `node server.js`
 - Open start.html from the [mainMenu](https://github.com/avanbath/tic-tac-york/tree/main/website/mainMenu) subfolder using a supported browser
 - Enjoy the game!
